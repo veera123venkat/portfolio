@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Step Locking System in Bus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Smart Step Locking System in Bus</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Back to Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 🔹 Introduction Section -->
+    <section class="intro-section">
+      <h2>Introduction</h2>
+      <p>This project aims to improve passenger safety by automatically locking and unlocking the bus step depending on whether the bus is moving or stopped.</p>
+    </section>
+
+    <!-- 🔹 Purpose Section -->
+    <section class="purpose-section">
+      <h2>Purpose</h2>
+      <p>To prevent accidents where passengers fall while boarding or alighting from the bus during motion.</p>
+    </section>
+
+    <!-- 🔹 Components Section -->
+    <section class="components-section">
+      <h2>Components Used</h2>
+      <ul>
+        <li>Arduino UNO</li>
+        <li>ESP-32 Module</li>
+        <li>Relay Channel</li>
+        <li>LED and Buzzer</li>
+        <li>Resistors and Capacitors</li>
+        <li>Power Supply Module</li>
+      </ul>
+    </section>
+
+    <!-- 🔹 Working Section -->
+    <section class="working-section">
+      <h2>Working Principle</h2>
+      <p>
+        When the bus starts moving, the ESP-32 detects motion or ignition signals and sends a command to the relay module to lock the step. As soon as the bus comes to a stop, the ESP-32 unlocks the step, allowing safe entry and exit of passengers.
+      </p>
+    </section>
+
+    <!-- 🔹 Layout Section -->
+    <section class="layout-section">
+      <h2>Project Layout</h2>
+      <div style="text-align: center; margin: 20px 0;">
+        <img src="images/step-locking-system.jpg" alt="Step Locking System Layout" width="500" />
+      </div>
+    </section>
+
+    <!-- 🔹 Future Scope Section -->
+    <section class="future-section">
+      <h2>Future Improvements</h2>
+      <ul>
+        <li>Integrate GPS to automate locking based on location and speed.</li>
+        <li>Add mobile app notification to driver and conductor.</li>
+        <li>Use of AI sensors to detect actual step usage.</li>
+      </ul>
+    </section>
+
+    <!-- 🔹 Conclusion Section -->
+    <section class="conclusion-section">
+      <h2>Conclusion</h2>
+      <p>
+        This system can greatly reduce accidents and improve safety in public buses, especially for children and elderly passengers.
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
